@@ -5,3 +5,7 @@ rm -rf hardware/qcom-caf/msm8996/audio && rm -rf hardware/qcom-caf/msm8996/media
 # Cloning Trees
 
 git clone https://github.com/afterallafk/voltage_device_xiaomi_onclite.git -b twelve device/xiaomi/onclite && git clone https://github.com/afterallafk/vendor_xiaomi_onclite-12.git -b twelve vendor/xiaomi/onclite && git clone https://github.com/afterallafk/kernel_xiaomi_onclite.git -b twelve kernel/xiaomi/onclite
+
+# Starting Build Commands
+
+. build/envsetup.sh && lunch rom_device-userdebug && make bacon
