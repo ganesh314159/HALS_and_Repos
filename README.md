@@ -8,4 +8,4 @@ git clone https://github.com/afterallafk/voltage_device_xiaomi_onclite.git -b te
 
 # Starting Build Commands
 
-. build/envsetup.sh && lunch aosp_onclite-userdebug && make bacon
+. build/envsetup.sh && lunch voltage_onclite-userdebug && make bacon
