@@ -8,4 +8,4 @@ git clone https://github.com/afterallafk/android_device_xiaomi_onclite.git -b 12
 
 # Starting Build Commands
 
-. build/envsetup.sh && lunch voltage_onclite-userdebug && make bacon -j16
+. build/envsetup.sh && lunch aosp_onclite-userdebug && make bacon -j16
