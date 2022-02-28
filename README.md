@@ -8,4 +8,4 @@ git clone https://github.com/afterallafk/device_xiaomi_onclite.git -b potential 
 
 # Starting Build Commands
 
-. build/envsetup.sh && lunch cipher_onclite-userdebug && make bacon -j8
+. build/envsetup.sh && lunch potential_onclite-userdebug && make bacon -j8
