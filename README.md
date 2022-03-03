@@ -8,4 +8,4 @@ git clone https://github.com/afterallafk/device_xiaomi_onclite.git -b 12 device/
 
 # Starting Build Commands
 
-. build/envsetup.sh && lunch aosp_onclite-userdebug && make bacon -j8
+. build/envsetup.sh && lunch aosp_onclite-userdebug && make bacon -j32
