@@ -7,7 +7,7 @@ rm -rf device/qcom/sepolicy && rm -rf device/qcom/sepolicy-legacy-um && rm -rf d
 
 # Cloning Trees
 
-git clone https://github.com/afterallafk/voltage_device_xiaomi_onclite.git -b twelve device/xiaomi/onclite && git clone https://github.com/afterallafk/vendor_xiaomi_onclite-12.git -b twelve vendor/xiaomi/onclite && git clone https://github.com/afterallafk/kernel_xiaomi_onclite.git -b twelve kernel/xiaomi/onclite
+git clone https://github.com/afterallafk/voltage_device_xiaomi_onclite.git -b blaze12 device/xiaomi/onclite && git clone https://github.com/afterallafk/vendor_xiaomi_onclite-12.git -b twelve vendor/xiaomi/onclite && git clone https://github.com/afterallafk/kernel_xiaomi_onclite.git -b twelve kernel/xiaomi/onclite
 
 # Starting Build Commands
 
