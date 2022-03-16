@@ -11,4 +11,4 @@ git clone https://github.com/afterallafk/device_xiaomi_onclite.git -b blaze devi
 
 # Starting Build Commands
 
-. build/envsetup.sh && lunch blaze_onclite-userdebug && make bacon
+. build/envsetup.sh && lunch blaze_onclite-eng && make bacon
