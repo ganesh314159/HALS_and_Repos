@@ -9,6 +9,6 @@ rm -rf device/qcom/sepolicy && rm -rf device/qcom/sepolicy-legacy-um && rm -rf d
 
 git clone https://github.com/afterallafk/device_xiaomi_onclite.git -b blaze device/xiaomi/onclite && git clone https://github.com/afterallafk/vendor_xiaomi_onclite-12.git -b twelve vendor/xiaomi/onclite && git clone https://github.com/afterallafk/kernel_xiaomi_onclite.git -b twelve kernel/xiaomi/onclite
 
-# STARTING BUILD COMMANDS
+# BUILD COMMANDS
 
 . build/envsetup.sh && lunch blaze_onclite-eng && make bacon
