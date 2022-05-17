@@ -11,11 +11,11 @@ rm -rf device/qcom/sepolicy && rm -rf device/qcom/sepolicy-legacy-um && rm -rf d
 ### CLONING TREES ###
 For Blaze
 ```
-git clone https://github.com/ProjectBlaze-Devices/device_xiaomi_onclite -b 12.1 device/xiaomi/onclite && git clone https://github.com/afterallafk/vendor_xiaomi_onclite-12.git -b twelve vendor/xiaomi/onclite && git clone https://github.com/afterallafk/kernel_xiaomi_onclite.git -b 12.1 kernel/xiaomi/onclite
+rm -rf device/xiaomi/* kernel/xiaomi/* vendor/xiaomi/* && git clone https://github.com/ProjectBlaze-Devices/device_xiaomi_onclite -b 12.1 device/xiaomi/onclite && git clone https://github.com/afterallafk/vendor_xiaomi_onclite-12.git -b twelve vendor/xiaomi/onclite && git clone https://github.com/afterallafk/kernel_xiaomi_onclite.git -b 12.1 kernel/xiaomi/onclite
 ```
 For Spark
 ```
-git clone https://github.com/ganesh314159/device_xiaomi_onclite -b spark device/xiaomi/onclite && git clone https://github.com/afterallafk/vendor_xiaomi_onclite-12.git -b twelve vendor/xiaomi/onclite && git clone https://github.com/afterallafk/kernel_xiaomi_onclite.git -b 12.1 kernel/xiaomi/onclite
+rm -rf device/xiaomi/* kernel/xiaomi/* vendor/xiaomi/* && git clone https://github.com/ganesh314159/device_xiaomi_onclite -b spark device/xiaomi/onclite && git clone https://github.com/afterallafk/vendor_xiaomi_onclite-12.git -b twelve vendor/xiaomi/onclite && git clone https://github.com/afterallafk/kernel_xiaomi_onclite.git -b 12.1 kernel/xiaomi/onclite
 ```
 
 ### BUILD COMMANDS ###
